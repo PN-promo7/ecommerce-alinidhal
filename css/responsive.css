@@ -1,0 +1,182 @@
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+  /* Elements html en display-none */
+  .main-nav, header, footer, .promo, .adv-newsletter, .d-none, .p-none, .section-articles, .ancre {
+    display: none;
+  }
+
+  /* Elements html en display-block */
+   header, .nav-resp, .footer-resp, .h-none, .sect-resp, .back {
+    display: block;
+  }
+
+  body {
+    position: relative;
+  }
+
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+  }
+
+  body, html {
+    height: 100%;
+    width: 100%;
+  }
+  img {
+    max-width: 100%;
+  }
+  h1 {
+    font-size: 1.5rem;
+  }
+  h2 {
+    font-size: 0.6rem;
+  }
+  h3 {
+    font-size: 0.5rem;
+    padding: 15px 5px;
+  }
+  /* Balise et class de même regle */
+  /* width: 100% */
+  .nav-resp, .main-navigation, .shop-catego article, .winter, .article-resp article, .footer-resp, .footer-content, .footer-content div, .back {
+    width: 100%;
+  }
+  /* Border-bottom  */
+  .nav-resp, .article-resp article img, .footer-resp .last-div {
+    border-bottom: 1px solid black;
+  }
+
+  /* La navigation pour le responsive  */
+  .nav-resp {
+    background-color: #FFFFFF;
+    display: block;
+    height: 48px;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+  }
+
+  .main-navigation {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    top: 0;
+    z-index: 1;
+  }
+
+  .main-navigation .logo {
+    width: 150px;
+  }
+
+  .main-navigation i {
+    padding-left: 15px
+  }
+
+  .main-navigation div {
+    padding-right: 15px
+  }
+
+  .nav-resp .search-cart {
+    display: flex;
+  }
+
+  .nav-resp .search-cart {
+    display: flex;
+  }
+  /* Le header pour responsive */
+  header {
+    height: 100%;
+    text-align: center;
+  }
+  .text-header {
+    padding-top: 130px;
+  }
+  header p {
+    font-size: 1rem;
+  }
+  header p, h1 {
+    text-shadow: 2px 1px 1px #4d4d4d;
+  }
+
+  /* Section pour les catégories responsive  */
+  .shop-catego {
+    flex-direction: column;
+    height: 30%;
+  }
+  .shop-catego article {
+    border: 1px solid black;
+    background-position: top;
+  }
+  .shop-catego .other-catego {
+    background-position: center;
+  }
+  /* Section pour la collection hivernale */
+  .sect-resp, .winter {
+    margin-top: 10%;
+  }
+
+  .winter {
+    height: 50%;
+  }
+  .winter div {
+    background-position: right;
+    max-width: 100%;
+  }
+  /* Section pour les Articles à vendre  */
+  .article-resp {
+    justify-content: center;
+    display: flex;
+  }
+  .article-resp article {
+    border: 1px solid black;
+    text-align: center;
+  }
+  .article-resp article div {
+    text-align: center;
+  }
+
+  .price {
+    border: none;
+    font-weight: 600;
+  }
+  .more {
+    padding-bottom: 30%;
+    padding-top: 30%;
+  }
+/* FOOTER RESPONSIVE */
+.footer-resp {
+  background-color: #f2f2f2;
+  border-top: 1px solid black;
+  margin-top: 5%;
+  height: 43%;
+  padding-top: 30px;
+}
+.footer-content {
+  border-top: 1px solid black;
+}
+
+.footer-content div {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 12px;
+}
+.footer-content div i {
+  font-size: 0.6rem;
+}
+
+.back {
+  margin-top: 15px;
+  text-align: center;
+}
+
+
+.deg {
+  padding-top: 10px;
+  font-size: 0.5rem;
+}
+}
